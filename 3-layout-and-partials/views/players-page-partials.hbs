@@ -1,0 +1,16 @@
+<div class="container">
+
+    <h1>Jugadores (ahora con partials! :3)</h1>
+
+    <hr>
+
+    <div class="row">
+
+        {{#each players}}
+        {{>playerPartial}}
+        {{/each}}
+
+    </div>
+
+    <a href="/" class="btn btn-dark">Ir a inicio</a>
+</div>
